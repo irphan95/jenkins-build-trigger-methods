@@ -14,5 +14,15 @@
 ![step6](https://user-images.githubusercontent.com/103019032/187120577-ab285800-3710-4019-ab4c-ea48738c873b.PNG)
 - #### The next option is build environment,so i have choose execute shell option,and tyle the ls,pwd, and running the python program.
 ![step7](https://user-images.githubusercontent.com/103019032/187121292-c36db297-85c6-4b05-93fa-a82be4b30ea5.PNG)
+![step9](https://user-images.githubusercontent.com/103019032/187125471-c01dd4a7-15fa-4e59-a992-995e891e7c4a.PNG)
+- #### the next option is post build actions so I have left this as default.
+![step8](https://user-images.githubusercontent.com/103019032/187121818-0c8592bd-5111-4dfe-a5b6-8a2fcb1577a1.PNG)
+-#### Now i have some changes in github repository,and commit for changes.
+![image](https://user-images.githubusercontent.com/103019032/187126072-fcdd0183-638b-45fa-9554-e69c3df36be8.png)
+- #### After change in github repository,jenkins automatically build again after 2 minutes.
+![image](https://user-images.githubusercontent.com/103019032/187127110-c6094f1a-19d3-4beb-8fa0-7619b89095bb.png)
+
+
+
 
 
