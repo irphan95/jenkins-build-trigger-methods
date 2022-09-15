@@ -44,6 +44,17 @@
 - #### Now we can check in console output
 ![step9](https://user-images.githubusercontent.com/103019032/187142398-bc2eb783-ee98-4760-874e-55a54b655a27.PNG)
 
+## 3. Build periodically
+
+- #### Click on the new item option
+![image](https://user-images.githubusercontent.com/103019032/190374551-72e31776-4738-4143-b7e7-77bc1a72506e.png)
+- #### After clicking on new item, the new interface will open,and type the project name,and also type of project,now i have choosed free style project.
+![image](https://user-images.githubusercontent.com/103019032/190375094-cda1b144-d1d5-4b19-8c27-16d62d68e89b.png)
+- #### After this step, In general option you can choose option according to your need or leave it.
+![image](https://user-images.githubusercontent.com/103019032/190376125-95ed6c88-9066-4d25-b73c-1fc1af525b29.png)
+- #### The next option is, source code management,in git option,from where we will get our code,if your repository is private,then you need to credentials,otherwise no need to credential.
+
+
 
 
 
