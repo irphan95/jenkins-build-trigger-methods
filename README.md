@@ -12,7 +12,7 @@
 ![step5](https://user-images.githubusercontent.com/103019032/187120322-82006998-fb9d-4eb7-8989-ac311cd53c16.PNG)
 - ####  The next option is build environment,I have left this as default.
 ![step6](https://user-images.githubusercontent.com/103019032/187120577-ab285800-3710-4019-ab4c-ea48738c873b.PNG)
-- #### The next option is build environment,so i have choose execute shell option,and tyle the ls,pwd, and running the python program.
+- #### The next option is build step,so i have choose execute shell option,and tyle the ls,pwd, and running the python program.
 ![step7](https://user-images.githubusercontent.com/103019032/187121292-c36db297-85c6-4b05-93fa-a82be4b30ea5.PNG)
 ![step9](https://user-images.githubusercontent.com/103019032/187125471-c01dd4a7-15fa-4e59-a992-995e891e7c4a.PNG)
 - #### the next option is post build actions so I have left this as default.
@@ -37,7 +37,7 @@
 ![step5](https://user-images.githubusercontent.com/103019032/187140619-8669f918-4eb5-4813-b5a3-0df376dc902c.PNG)
 - #### The next option is build environment,so i have choose execute shell option,and tyle the ls,pwd, and running the python program.
  ![step6](https://user-images.githubusercontent.com/103019032/187140793-76125ae2-5015-4c3f-8c39-15e4477945d8.PNG)
-- #### the next option is post build actions so I have left this as default.
+- #### The next option is post build actions so I have left this as default.
 ![step7](https://user-images.githubusercontent.com/103019032/187141118-11b56e8c-9a26-4073-8700-c9ed4e129f28.PNG)
 - #### Now we can build remotely using this https://192.168.6.234/job/jenkins-builds-remotely/build?token=my-token 
 ![step8](https://user-images.githubusercontent.com/103019032/187142265-5687d2b2-d4b2-4875-8266-6164f19f7a2b.PNG)
@@ -53,6 +53,22 @@
 - #### After this step, In general option you can choose option according to your need or leave it.
 ![image](https://user-images.githubusercontent.com/103019032/190376125-95ed6c88-9066-4d25-b73c-1fc1af525b29.png)
 - #### The next option is, source code management,in git option,from where we will get our code,if your repository is private,then you need to credentials,otherwise no need to credential.
+![step1](https://user-images.githubusercontent.com/103019032/190951385-36997b1c-b0a8-41aa-adce-6998bd027e4a.PNG)
+- #### In a build trigger metho,i have select trigger build periodically,it means for example cron have * * * * *(in a left side * means minute,the next * means hours, the next * means day, the next * means month, and the next * means year),so i have taken H/2 * * * *,it means if i will any changes in git repository,it automatically build every 2 minutes.
+![step2](https://user-images.githubusercontent.com/103019032/190952770-08b72e41-36a3-406f-bc3a-0ceb4409bbd5.PNG)
+- ####  The next option is build environment,I have left this as default.
+![step3](https://user-images.githubusercontent.com/103019032/190952911-6d6baf38-3599-4dc3-880c-df0bd46f340b.PNG)
+- #### The next option is build step,so i have choose execute shell option,and type the ls,pwd, and running the python program.
+![step4](https://user-images.githubusercontent.com/103019032/190953107-8c85dcf8-b294-4c4f-8835-31e9ce41133f.PNG)
+- #### The next option is post build actions so I have left this as default.
+![step5](https://user-images.githubusercontent.com/103019032/190953248-d98e15d2-3daa-4272-b0ac-e7a074919a64.PNG)
+- #### Now i have some changes in github repository,and commit for changes.
+![image](https://user-images.githubusercontent.com/103019032/190953447-882f90f6-a328-4303-b5e1-526e52453a97.png)
+- #### Now we can see every build after 2 minutes.
+![image](https://user-images.githubusercontent.com/103019032/190953725-94450beb-43bb-4048-8343-a3b4fe282abb.png)
+
+
+
 
 
 
